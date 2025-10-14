@@ -1,0 +1,67 @@
+# ═══════════════════════════════════════════════════════════
+# 🗂️ Git Ignore for EA-MQL5 AI Trading Project
+# ═══════════════════════════════════════════════════════════
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+*.csv
+*.dat
+*.bin
+
+# Model files (comment out if you want to track models)
+models/
+onnx_models/
+*.pkl
+*.h5
+*.hdf5
+*.onnx
+
+# Plots and reports
+plots/
+reports/
+
+# MQL5 compiled files
+*.ex5
+
+# MQL5 log files
+*.log
+
+# MQL5 test results
+tester/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Temp files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
