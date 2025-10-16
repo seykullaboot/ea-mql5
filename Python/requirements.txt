@@ -1,0 +1,48 @@
+# ═══════════════════════════════════════════════════════════
+# 📦 Python Dependencies for AI Trading System
+# ═══════════════════════════════════════════════════════════
+
+# Core Data Science
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+
+# Deep Learning (Optional but Recommended)
+tensorflow>=2.13.0
+keras>=2.13.0
+
+# Model Export
+joblib>=1.3.0
+onnx>=1.14.0
+onnxruntime>=1.15.0
+skl2onnx>=1.15.0
+tf2onnx>=1.15.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# ═══════════════════════════════════════════════════════════
+# Installation Instructions:
+# ═══════════════════════════════════════════════════════════
+# 
+# 1. สร้าง virtual environment:
+#    python -m venv venv
+#
+# 2. Activate virtual environment:
+#    - Windows: venv\Scripts\activate
+#    - Linux/Mac: source venv/bin/activate
+#
+# 3. ติดตั้ง dependencies:
+#    pip install -r requirements.txt
+#
+# 4. ตรวจสอบการติดตั้ง:
+#    python -c "import tensorflow, xgboost, lightgbm; print('OK')"
+#
+# ═══════════════════════════════════════════════════════════
